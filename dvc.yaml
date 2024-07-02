@@ -14,7 +14,7 @@ stages:
     - src/data/data_preprocessing.py
     outs:
     - data/processed
-  feature_engineerng:
+  feature_engineering:
     cmd: python src/features/feature_engineering.py
     deps:
     - data/processed
